@@ -70,6 +70,7 @@
                [(:output-to compiler-opts)
                 {"pattern" (->out-dir "/**") "included" false}
                 {"pattern" (->out-dir "/**/*.js") "included" false}
+                {"pattern" (->out-dir "/**/.*/*.js") "included" false}
                 {"pattern" (->out-dir "/*.js") "included" false}])
      "autoWatch" false
      "client" {"args" ["doo.runner.run_BANG_"]}
